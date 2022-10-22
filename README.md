@@ -2,7 +2,7 @@
 # MacOS printer installation script
 
 This is simply bash script that will add printer to your Mac if you have previously installed the driver. 🖨
-Of course a couple of lines can be added before the script to pull the installation directly from the web page, using the wget or curl, let the fats run wild. 💃🏻
+Of course a couple of lines can be added before the script to pull the installation directly from the web page, using wget or curl, let the fats run wild. 💃🏻
 The script first checks for the existence of the file from the installed driver. 
 It checks if you are on the same network as your printer so it can be added. If everything is cool, the oneliner will do everything it needs to do.
 This is useful if you are a domain admin and want to add a local printer to users' MacOS computers.
